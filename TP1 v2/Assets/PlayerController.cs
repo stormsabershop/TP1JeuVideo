@@ -1,13 +1,17 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
     public bool gameOver = false;
+    public float moveSpeed;
+    public Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
@@ -18,9 +22,13 @@ public class PlayerController : MonoBehaviour
             Debug.Log("espace");
             /* */
         }
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
-           
+            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
         }
     }
 
