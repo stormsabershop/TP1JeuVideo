@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/2346784/Documents/tp1/TP1JeuVideo/TP1 v2/Packages/manifest.json
+    m_FilePath: C:/Users/jerom/Documents/ecole/jeux video/TP1JeuVideo/TP1 v2/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638938889555621348
-    m_Hash: 3581623079
+      ticks: 638942332685294908
+    m_Hash: 3553337615
   m_LockFileStatus:
-    m_FilePath: C:/Users/2346784/Documents/tp1/TP1JeuVideo/TP1 v2/Packages/packages-lock.json
+    m_FilePath: C:/Users/jerom/Documents/ecole/jeux video/TP1JeuVideo/TP1 v2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638938891005925434
+      ticks: 638942385878802652
     m_Hash: 1850737750
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
-    C:/Users/2346784/Documents/tp1/TP1JeuVideo/TP1 v2/Packages/com.merry-yellow.code-assist/package.json:
-      m_FilePath: C:/Users/2346784/Documents/tp1/TP1JeuVideo/TP1 v2/Packages/com.merry-yellow.code-assist/package.json
+    C:/Users/jerom/Documents/ecole/jeux video/TP1JeuVideo/TP1 v2/Packages/com.merry-yellow.code-assist/package.json:
+      m_FilePath: C:/Users/jerom/Documents/ecole/jeux video/TP1JeuVideo/TP1 v2/Packages/com.merry-yellow.code-assist/package.json
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 638938890964032082
+        ticks: 638942385808146529
       m_Hash: 3764251138
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/2346784/Documents/tp1/TP1JeuVideo/TP1 v2/Packages
+m_ProjectPath: C:/Users/jerom/Documents/ecole/jeux video/TP1JeuVideo/TP1 v2/Packages
 m_EditorVersion: 6000.0.49f1 (840e0a9776d9)
 m_ResolvedPackages:
 - packageId: com.unity.ide.visualstudio@2.0.23
@@ -35,7 +35,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.23
   source: 1
-  resolvedPath: C:\Users\2346784\Documents\tp1\TP1JeuVideo\TP1 v2\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: C:\Users\jerom\Documents\ecole\jeux video\TP1JeuVideo\TP1 v2\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -141,7 +141,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\2346784\Documents\tp1\TP1JeuVideo\TP1 v2\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\jerom\Documents\ecole\jeux video\TP1JeuVideo\TP1 v2\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -2509,13 +2509,13 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-- packageId: com.merry-yellow.code-assist@file:C:\Users\2346784\Documents\tp1\TP1JeuVideo\TP1
-    v2\Packages\com.merry-yellow.code-assist
+- packageId: com.merry-yellow.code-assist@file:C:\Users\jerom\Documents\ecole\jeux
+    video\TP1JeuVideo\TP1 v2\Packages\com.merry-yellow.code-assist
   testable: 1
   isDirectDependency: 1
   version: 1.4.18
   source: 3
-  resolvedPath: C:\Users\2346784\Documents\tp1\TP1JeuVideo\TP1 v2\Packages\com.merry-yellow.code-assist
+  resolvedPath: C:\Users\jerom\Documents\ecole\jeux video\TP1JeuVideo\TP1 v2\Packages\com.merry-yellow.code-assist
   assetPath: Packages/com.merry-yellow.code-assist
   name: com.merry-yellow.code-assist
   displayName: Code Assist
@@ -2734,7 +2734,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.5.1
   source: 2
-  resolvedPath: C:\Users\2346784\Documents\tp1\TP1JeuVideo\TP1 v2\Library\PackageCache\com.unity.test-framework@c132dced4a5c
+  resolvedPath: C:\Users\jerom\Documents\ecole\jeux video\TP1JeuVideo\TP1 v2\Library\PackageCache\com.unity.test-framework@c132dced4a5c
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2872,7 +2872,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\2346784\Documents\tp1\TP1JeuVideo\TP1 v2\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\jerom\Documents\ecole\jeux video\TP1JeuVideo\TP1 v2\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit

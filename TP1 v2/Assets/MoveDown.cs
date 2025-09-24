@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class MoveDown : MonoBehaviour
 {
-    public float speed = 7f;
+    private float speed = 5f;
     private PlayerController playerControllerScript;
-    public float downBound = -10f;
+    private float downBound = -50f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,7 +18,11 @@ public class MoveDown : MonoBehaviour
         {
             transform.Translate(Vector3.back * speed * Time.deltaTime);
         }
-        if (transform.position.x < downBound && gameObject.CompareTag("Obstacle"))
+        if (transform.position.z < downBound)
+        {
+            Debug.Log("you lost");
             Destroy(gameObject);
+        }
+
     }
 }
