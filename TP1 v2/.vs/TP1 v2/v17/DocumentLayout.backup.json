@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|c:\\users\\jerom\\documents\\ecole\\jeux video\\tp1jeuvideo\\tp1 v2\\assets\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|solutionrelative:assets\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|c:\\users\\jerom\\documents\\ecole\\jeux video\\tp1jeuvideo\\tp1 v2\\assets\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\assets\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|solutionrelative:assets\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|c:\\users\\jerom\\documents\\ecole\\jeux video\\tp1jeuvideo\\tp1 v2\\assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|solutionrelative:assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\assets\\animalspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|solutionrelative:assets\\animalspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\assets\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|solutionrelative:assets\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\assets\\movedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA68FEF-0DE5-55D0-5128-B9A95F4F0B08}|Assembly-CSharp.csproj|solutionrelative:assets\\movedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UIManager.cs",
+              "ToolTip": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\UIManager.cs",
+              "RelativeToolTip": "Assets\\UIManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T23:53:32.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnimalSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\AnimalSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\AnimalSpawner.cs",
+              "ToolTip": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\AnimalSpawner.cs",
+              "RelativeToolTip": "Assets\\AnimalSpawner.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T15:20:35.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AnimalController.cs",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\AnimalController.cs",
               "RelativeDocumentMoniker": "Assets\\AnimalController.cs",
               "ToolTip": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\AnimalController.cs",
               "RelativeToolTip": "Assets\\AnimalController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAYwG4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T20:19:36.521Z",
+              "WhenOpened": "2025-09-24T15:14:02.352Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +83,35 @@
               "RelativeDocumentMoniker": "Assets\\FoodController.cs",
               "ToolTip": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\FoodController.cs",
               "RelativeToolTip": "Assets\\FoodController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwA8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T20:04:25.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
               "ToolTip": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\PlayerController.cs",
               "RelativeToolTip": "Assets\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T19:44:26.427Z"
+              "WhenOpened": "2025-09-23T19:44:26.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoveDown.cs",
+              "DocumentMoniker": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\MoveDown.cs",
+              "RelativeDocumentMoniker": "Assets\\MoveDown.cs",
+              "ToolTip": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Assets\\MoveDown.cs",
+              "RelativeToolTip": "Assets\\MoveDown.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T02:16:43.09Z"
             }
           ]
         }

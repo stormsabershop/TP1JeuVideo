@@ -4,13 +4,12 @@ public class FoodController : MonoBehaviour
 {
     public float speed = 10f;
     public float lifetime = 10f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         Destroy(gameObject, lifetime);
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.forward * speed * Time.deltaTime, Space.World);
@@ -18,7 +17,21 @@ public class FoodController : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        // Unity calls this when the object leaves the camera view
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Animal"))
+        {
+            Debug.Log("a food provided contact");
+            AnimalController animal = other.GetComponent<AnimalController>();
+            if (animal != null)
+            {
+                animal.Manger(); // appelle le script AnimalController
+            }
+
+            Destroy(gameObject); // détruire la nourriture après impact
+        }
     }
 }

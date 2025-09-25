@@ -6,13 +6,17 @@ public class AnimalSpawner : MonoBehaviour
     public float spawnInterval = 3f;    // Base time between spawns
     private float timer;
 
+
+    private PlayerController playerController;
     void Start()
     {
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
         timer = spawnInterval;
     }
 
     void Update()
     {
+        if (playerController.gameOver) return;
         timer -= Time.deltaTime;
 
         if (timer <= 0f)

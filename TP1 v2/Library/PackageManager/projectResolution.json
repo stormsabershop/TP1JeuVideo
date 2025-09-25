@@ -30,6 +30,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+      "displayName": "Unity UI",
+      "resolvedPath": "C:\\Users\\jerom\\Documents\\ecole\\jeux video\\TP1JeuVideo\\TP1 v2\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d",
+      "fingerprint": "9b7e7eef789d33aa6ffece07e152e5d96e115c8f",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",

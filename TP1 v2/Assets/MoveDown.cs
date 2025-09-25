@@ -4,7 +4,8 @@ public class MoveDown : MonoBehaviour
 {
     private float speed = 5f;
     private PlayerController playerControllerScript;
-    private float downBound = -50f;
+    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,13 +17,22 @@ public class MoveDown : MonoBehaviour
     {
         if (!playerControllerScript.gameOver)
         {
-            transform.Translate(Vector3.back * speed * Time.deltaTime);
+            if(transform.rotation.y < 0)
+            {
+                
+                transform.Translate(Vector3.left * speed * Time.deltaTime);
+            }
+            else { 
+                transform.Translate(Vector3.right * speed * Time.deltaTime);
+             
+            }
+            
+                
+            
+            
+            
         }
-        if (transform.position.z < downBound)
-        {
-            Debug.Log("you lost");
-            Destroy(gameObject);
-        }
+        
 
     }
 }

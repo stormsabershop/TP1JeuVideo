@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject foodPrefab;
     public Transform firePoint;
-
+    public GameObject shootParticlesPrefab;
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (gameOver) return;
         // Déplacement horizontal (A/D ou flèches gauche/droite)
         float move = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * move * moveSpeed * Time.deltaTime, Space.World);
@@ -33,6 +34,15 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Espace pressé -> tirer nourriture");
             Instantiate(foodPrefab, firePoint.position, Quaternion.identity);
+            if (shootParticlesPrefab != null)
+            {
+                Instantiate(shootParticlesPrefab, firePoint.position, firePoint.rotation);
+            }
         }
+
+      
     }
+
+
+    
 }

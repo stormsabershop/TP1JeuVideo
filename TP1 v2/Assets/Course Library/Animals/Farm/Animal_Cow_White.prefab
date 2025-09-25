@@ -44,9 +44,10 @@ GameObject:
   - component: {fileID: 9585270}
   - component: {fileID: 5915466399973681586}
   - component: {fileID: 4697792012340560613}
+  - component: {fileID: 3544342508343978538}
   m_Layer: 0
   m_Name: Animal_Cow_White
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a720d33735ede574dbda1e88ca2c90fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
 --- !u!114 &4697792012340560613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,8 +114,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42159e2dc113edc4bb085481966bfa30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
-  downBound: -50
+--- !u!64 &3544342508343978538
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102230}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: f18cd949d6d73cb459e428cd63e6ac27, type: 3}
 --- !u!1 &102342
 GameObject:
   m_ObjectHideFlags: 0
